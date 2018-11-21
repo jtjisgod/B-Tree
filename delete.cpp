@@ -62,6 +62,11 @@ void inorderBT(Node*& T, int m) {
     inorderBT(T -> P[i], m);
 }
 
+// Btree에서 Key를 제거한다.
+void deleteBT(Node*& T, int m, int oldKey) {
+    
+}
+
 // Btree에 Key를 추가한다.
 void insertBT(Node*& T, int m, int newKey) {
 
